@@ -13,7 +13,7 @@
 		DC753BF82B83F46500A1AE84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC753BF62B83F46500A1AE84 /* Main.storyboard */; };
 		DC753BFA2B83F46700A1AE84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC753BF92B83F46700A1AE84 /* Assets.xcassets */; };
 		DC753BFD2B83F46700A1AE84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC753BFB2B83F46700A1AE84 /* LaunchScreen.storyboard */; };
-		DC753C052B83FD7300A1AE84 /* Welcome.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753C042B83FD7300A1AE84 /* Welcome.swift */; };
+		DC753C052B83FD7300A1AE84 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC753C042B83FD7300A1AE84 /* WelcomeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		DC753BF92B83F46700A1AE84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC753BFC2B83F46700A1AE84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC753BFE2B83F46700A1AE84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC753C042B83FD7300A1AE84 /* Welcome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.swift; sourceTree = "<group>"; };
+		DC753C042B83FD7300A1AE84 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 				DC753BF02B83F46500A1AE84 /* AppDelegate.swift */,
 				DC753BF22B83F46500A1AE84 /* SceneDelegate.swift */,
 				DC753BF42B83F46500A1AE84 /* ViewController.swift */,
-				DC753C042B83FD7300A1AE84 /* Welcome.swift */,
+				DC753C042B83FD7300A1AE84 /* WelcomeVC.swift */,
 				DC753BF62B83F46500A1AE84 /* Main.storyboard */,
 				DC753BF92B83F46700A1AE84 /* Assets.xcassets */,
 				DC753BFB2B83F46700A1AE84 /* LaunchScreen.storyboard */,
@@ -141,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC753C052B83FD7300A1AE84 /* Welcome.swift in Sources */,
+				DC753C052B83FD7300A1AE84 /* WelcomeVC.swift in Sources */,
 				DC753BF52B83F46500A1AE84 /* ViewController.swift in Sources */,
 				DC753BF12B83F46500A1AE84 /* AppDelegate.swift in Sources */,
 				DC753BF32B83F46500A1AE84 /* SceneDelegate.swift in Sources */,

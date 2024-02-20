@@ -98,10 +98,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="3.1484257871064472"/>
         </scene>
-        <!--Welcome-->
+        <!--WelcomeVC-->
         <scene sceneID="bvp-h7-Zhz">
             <objects>
-                <viewController id="qJQ-xp-88x" customClass="Welcome" customModule="Login_HM5" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qJQ-xp-88x" customClass="WelcomeVC" customModule="Login_HM5" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KXq-Qp-U3Q">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

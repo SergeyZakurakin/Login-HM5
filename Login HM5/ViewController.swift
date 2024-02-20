@@ -14,18 +14,21 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     
     
-    let login = "zak"
-    let password = "7777"
+    // MARK: - Private propertis
     
-    var userName = ""
+    private let login = "zak"
+    private let password = "7777"
+    private var userName = ""
     
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Do any additional setup after loading the view.
+//    }
 
 
+    //MARK: - IBActions
+    
     @IBAction func loginButton(_ sender: UIButton) {
         userName = userNameTextField.text ?? ""
         if login == userName && password == passwordTextField.text{
@@ -35,13 +38,11 @@ class ViewController: UIViewController {
         } else {
             showAlert(with: "wrong pass")
         }
-        
-        
     }
     
     
     @IBAction func forgotUserNameButton(_ sender: UIButton) {
-        showAlert(with: "User")
+        showAlert(with: "zak")
     }
     
     
@@ -61,13 +62,15 @@ class ViewController: UIViewController {
         
         self.present(alertController, animated: true, completion: nil)
     }
+        
     
     
+    //MARK: - Public functions
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "welcomeSegue" {
-            if let destinationVC = segue.destination as? Welcome {
+            if let destinationVC = segue.destination as? WelcomeVC {
                 destinationVC.userName = userNameTextField.text ?? ""
             }
         }
@@ -75,3 +78,4 @@ class ViewController: UIViewController {
     
 }
 
+//

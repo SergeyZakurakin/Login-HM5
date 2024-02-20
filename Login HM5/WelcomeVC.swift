@@ -1,5 +1,5 @@
 //
-//  Welcome.swift
+//  WelcomeVC.swift
 //  Login HM5
 //
 //  Created by Sergey Zakurakin on 19/02/2024.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class Welcome: UIViewController {
+class WelcomeVC: UIViewController {
 
     @IBOutlet weak var welcomeLabel: UILabel!
     
